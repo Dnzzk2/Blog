@@ -8,7 +8,7 @@
   }
 
   .leftNav {
-    @apply fixed left-0 top-0 h-screen bg-white dark:bg-cpDark overflow-auto w-[252px] border-r-[1px] dark:border-r-0;
+    @apply fixed left-0 top-0 h-screen bg-white dark:bg-cpDark overflow-auto w-fit border-r-[1px] dark:border-r-0;
   }
 }
 

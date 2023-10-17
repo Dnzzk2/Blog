@@ -75,6 +75,9 @@ const config: Config = {
       },
       screens: {
         xs: '400px'
+      },
+      boxShadow: {
+        rightShadow: '0 0 2px rgba(0,0,0,0.1)'
       }
     }
   },
