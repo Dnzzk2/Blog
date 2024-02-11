@@ -3,7 +3,7 @@
 
 export const SITE_TITLE = "许留山";
 export const SITE_DESCRIPTION =
-  "欢迎来到我的个人博客, 这里记录了我的一些技术分享和生活感悟, 希望能给你带来一些帮助,我们一起进步。";
+  "许留山的个人博客, 这里记录了我的一些技术分享和生活感悟, 希望能给你带来一些帮助,我们一起进步。";
 export const TWITTER_HANDLE = "undefined";
 export const MY_NAME = "许留山";
 

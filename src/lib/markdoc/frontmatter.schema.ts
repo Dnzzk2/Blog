@@ -30,6 +30,7 @@ export const blog = z.discriminatedUnion("external", [
     description: z.optional(z.string()),
     ogImagePath: z.optional(z.string()),
     canonicalUrl: z.optional(z.string()),
+    featured: z.optional(z.boolean()),
   }),
   // external link
   baseSchema.extend({
@@ -49,6 +50,7 @@ export const leetCode = z.discriminatedUnion("external", [
     description: z.optional(z.string()),
     ogImagePath: z.optional(z.string()),
     canonicalUrl: z.optional(z.string()),
+    featured: z.optional(z.boolean()),
   }),
   // external link
   baseSchema.extend({
